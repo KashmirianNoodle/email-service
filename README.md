@@ -21,6 +21,11 @@ Create a `.env` file:
 ```env
 MAILROO_API_KEY=your-mailroo-api-key
 PORT=3000
+SMTP_HOST=smtp.yourprovider.com
+SMTP_PORT=587
+SMTP_SECURE=false
+SMTP_USER=your@email.com
+SMTP_PASS=your_smtp_password
 ```
 
 ## 🚀 Run the API
